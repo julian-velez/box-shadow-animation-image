@@ -1,0 +1,20 @@
+body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 150px;
+}
+
+img {
+  width: 350px;
+  height: 300px;
+  border-radius: 10px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  margin-left: 40px;
+}
+
+img:hover {
+  filter: drop-shadow(14px 14px 14px red);
+}
